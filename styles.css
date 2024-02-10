@@ -221,6 +221,30 @@ section.first > div :nth-child(2) {
   cursor: pointer;
 }
 
+.last {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 65px 30px;
+}
+
+.text input {
+  padding: 6px 101px 8px 14px;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  height: 52px;
+}
+
 footer {
   color: white;
   max-width: 60vw;
